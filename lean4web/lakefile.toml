@@ -1,0 +1,11 @@
+name = "weak_tiling_problem_41_lean4web"
+version = "0.1.0"
+defaultTargets = ["WeakTilingProblem41Lean4Web"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc2"
+
+[[lean_lib]]
+name = "WeakTilingProblem41Lean4Web"

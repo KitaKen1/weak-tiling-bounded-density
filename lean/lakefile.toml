@@ -1,0 +1,11 @@
+name = "weak_tiling_problem_41_fc"
+version = "0.1.0"
+defaultTargets = ["WeakTilingProblem41FC"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "8927a585c5d522fc132d7ea6488fcd9e30ccd80e"
+
+[[lean_lib]]
+name = "WeakTilingProblem41FC"
